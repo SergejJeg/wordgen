@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+	font-family: "Noto Sans", sans-serif;
+	padding: 20px;
+	background: #101418;
+	color: #eaecf0;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	margin-bottom: 20px;
+	margin: 0px auto;
+}
+
+th, td {
+	border: 1px solid #888;
+	padding: 6px 8px;
+	text-align: center;
+	min-width: 55px;
+	background: #202122;
+}
+
+th {
+	background: #363738;
+	font-weight: 600;
+}
+
+.manner {
+	text-align: left;
+	background: #202122;
+	font-weight: 500;
+}
+
+.ipa-symbol {
+	cursor: pointer;
+	width: 20px;
+	height: 24px;
+	padding: 2px 4px;
+	border-radius: 4px;
+	display: inline-block;
+}
+
+.ipa-symbol:hover {
+	background: #363738;
+	position:relative;
+	bottom:3px;
+}
+
+.ipa-symbol.selected {
+	background: #fff;
+	color: #000;
+}
+
+#selected {
+	margin: 10px 0;
+	font-size: 18px;
+}
+
+.ipa {
+	font-family: monospace;
+	color: #555;
+}
+
+input {
+	background:#768d87;
+	border-radius:12px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:17px;
+	padding:4px 10px;
+	margin: 10px 0;
+}
+
+#generateButton, #minimizeButton {
+	background:#768d87;
+	border-radius:42px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:17px;
+	padding:4px 20px;
+	margin: 10px 0;
+}
+#generateButton:hover, #minimizeButton:hover {
+	background:#6c7c7c;
+}
+
+#save {
+	background:#568f66;
+	border-radius:42px;
+	display:inline-block;
+	color:#ffffff;
+	font-size:17px;
+	padding:4px 20px;
+}
+#save:hover {
+	background:#3f704d;
+}
+
+button:active {
+	position:relative;
+	top:3px;
+}
+
+.hidden {
+    display: none;
+}
