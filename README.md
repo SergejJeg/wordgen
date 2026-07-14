@@ -52,7 +52,3 @@ style.css     Styling
 script.js     Word generation logic
 README.md
 ```
-
-## License
-
-Feel free to use or modify this project however you'd like.
