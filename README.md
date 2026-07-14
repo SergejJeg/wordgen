@@ -26,7 +26,7 @@ Configuration:
 
 * Consonants: `m n p b t d k g s z ʃ ʒ f v θ ð x h ɹ j r l`
 * Vowels: `i u ɪ ʊ e o ə ɛ ʌ ɔ a ɑ`
-* Structure: `CV(V)(C_`
+* Structure: `CV(V)(C)`
 
 Possible output:
 
